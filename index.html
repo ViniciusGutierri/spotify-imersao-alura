@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/icons/favicon.png" type="image/x-icon">
     <title>Spotify - Web player: música para todas as pessoas</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" crossorigin="anonymous">
 </head>
@@ -16,7 +17,7 @@
         
         <nav class="sidebar__navigation">
             <div class="logo">
-                <a href=""><img src="./assets/icons/logo-spotify.png" alt="Logo do Spotify"></a>
+                <a href=""><img src="./src/assets/icons/logo-spotify.png" alt="Logo do Spotify"></a>
             </div>
             <ul>
                 <li>
@@ -66,6 +67,21 @@
         </div>
 
     </div>
+
+    
+
+    <footer class="disclaimer-premium">
+        <div class="text">
+            <p class="disclaimer-premium__title">Testar o Premium de graça</p>
+            <p class="disclaimer-premium__subtitle">
+                Inscreva-se para curtir música ilimitada e podcasts só com alguns
+                anúncios. Não precisa de cartão de crédito.
+            </p>
+        </div>
+        <div class="button">
+            <button type="button">Inscreva-se grátis</button>
+        </div>
+    </footer>
     
 </body>
 </html>
