@@ -5,10 +5,13 @@
     --color-black: #000;
     --color-black-secondary: #121212;
     --color-black-tertiary: #242424;
+    --color-black-quaternary: #181818;
     --color-white: #FFF;
     --color-gray: #B3B3B3;
     --color-gray-secondary: #878787;
     --color-gray-tertiary: #A7A7A7;
+    --color-gray-quaternary: #6a6a6a;
+    --color-green: #1db954;
     --bg-icon: #131313;
     --bg-arrow-color: rgba(0,0,07);
 }
